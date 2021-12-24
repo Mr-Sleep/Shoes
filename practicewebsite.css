@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior:smooth;
+    text-align: center;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: lightcoral;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.navlinks{
+    list-style: none;
+}
+
+.navlinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlinks li a{
+    transition: all o.3s ease 0;
+}
+
+.navlinks li a :hover{
+    color: skyblue;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: beige;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all o.3s ease 0;
+    margin-left: 20px;
+}
+
+.thunder-logo{
+    height: 60px;
+    margin: 10px;
+}
+
+.main{
+    background-color: antiquewhite;
+    padding-top: 15px;
+}
+
+.shoes{
+    height: 320px;
+    margin-top: 20px;
+}
+
+.main-text{
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5em;
+}
+
+.description{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
